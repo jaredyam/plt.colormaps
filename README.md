@@ -1,9 +1,10 @@
 <h1 align="center">🌈 plt.colormaps</h1>
-<h4 align="center">A quick overview of all available matplotlib color maps by showing the same heatmap.</h4>
+<h4 align="center">A quick overview of all available matplotlib colormaps by showing a single heatmap.</h4>
 
-DSECRIPTION: The heatmap used in this document is created by using the POLSAR H/α target decomposition method on the AIRSAR L-band San Francisco Bay dataset.
+DSECRIPTION: The heatmap source data ([points.npy](demo/points.npy)) comes from PolSAR H/α target decomposition on the AIRSAR L-band San Francisco Bay benchmark dataset.
 
-|Cmap|Visualization|
+## Gallery
+|Colormap|Visualization|
 |:---:|:---:|
 |`prism_r`|![prism_r](imgs/prism_r.png)|
 |`YlGnBu_r`|![YlGnBu_r](imgs/YlGnBu_r.png)|
