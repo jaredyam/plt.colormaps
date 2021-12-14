@@ -4,183 +4,718 @@
 DSECRIPTION: The heatmap source data ([points.npy](demo/points.npy)) comes from PolSAR H/α target decomposition on the AIRSAR L-band San Francisco Bay benchmark dataset.
 
 ## Gallery
-|Colormap|Visualization|
-|:---:|:---:|
-|`prism_r`|![prism_r](imgs/prism_r.png)|
-|`YlGnBu_r`|![YlGnBu_r](imgs/YlGnBu_r.png)|
-|`Set3`|![Set3](imgs/Set3.png)|
-|`BrBG_r`|![BrBG_r](imgs/BrBG_r.png)|
-|`terrain_r`|![terrain_r](imgs/terrain_r.png)|
-|`Pastel1_r`|![Pastel1_r](imgs/Pastel1_r.png)|
-|`Set2`|![Set2](imgs/Set2.png)|
-|`flag_r`|![flag_r](imgs/flag_r.png)|
-|`YlOrRd_r`|![YlOrRd_r](imgs/YlOrRd_r.png)|
-|`copper_r`|![copper_r](imgs/copper_r.png)|
-|`Spectral_r`|![Spectral_r](imgs/Spectral_r.png)|
-|`gist_rainbow_r`|![gist_rainbow_r](imgs/gist_rainbow_r.png)|
-|`summer`|![summer](imgs/summer.png)|
-|`tab20c`|![tab20c](imgs/tab20c.png)|
-|`gray_r`|![gray_r](imgs/gray_r.png)|
-|`nipy_spectral`|![nipy_spectral](imgs/nipy_spectral.png)|
-|`flag`|![flag](imgs/flag.png)|
-|`twilight_shifted`|![twilight_shifted](imgs/twilight_shifted.png)|
-|`Set1`|![Set1](imgs/Set1.png)|
-|`tab20b`|![tab20b](imgs/tab20b.png)|
-|`RdBu`|![RdBu](imgs/RdBu.png)|
-|`bwr`|![bwr](imgs/bwr.png)|
-|`Blues_r`|![Blues_r](imgs/Blues_r.png)|
-|`Purples`|![Purples](imgs/Purples.png)|
-|`terrain`|![terrain](imgs/terrain.png)|
-|`icefire`|![icefire](imgs/icefire.png)|
-|`gray`|![gray](imgs/gray.png)|
-|`Set3_r`|![Set3_r](imgs/Set3_r.png)|
-|`Oranges_r`|![Oranges_r](imgs/Oranges_r.png)|
-|`PRGn_r`|![PRGn_r](imgs/PRGn_r.png)|
-|`YlOrRd`|![YlOrRd](imgs/YlOrRd.png)|
-|`Set1_r`|![Set1_r](imgs/Set1_r.png)|
-|`Purples_r`|![Purples_r](imgs/Purples_r.png)|
-|`RdGy_r`|![RdGy_r](imgs/RdGy_r.png)|
-|`cool_r`|![cool_r](imgs/cool_r.png)|
-|`gist_gray`|![gist_gray](imgs/gist_gray.png)|
-|`gist_yarg`|![gist_yarg](imgs/gist_yarg.png)|
-|`twilight`|![twilight](imgs/twilight.png)|
-|`RdBu_r`|![RdBu_r](imgs/RdBu_r.png)|
-|`pink_r`|![pink_r](imgs/pink_r.png)|
-|`Reds`|![Reds](imgs/Reds.png)|
-|`twilight_shifted_r`|![twilight_shifted_r](imgs/twilight_shifted_r.png)|
-|`bone_r`|![bone_r](imgs/bone_r.png)|
-|`cividis`|![cividis](imgs/cividis.png)|
-|`viridis_r`|![viridis_r](imgs/viridis_r.png)|
-|`gnuplot2`|![gnuplot2](imgs/gnuplot2.png)|
-|`PuBu_r`|![PuBu_r](imgs/PuBu_r.png)|
-|`gist_ncar_r`|![gist_ncar_r](imgs/gist_ncar_r.png)|
-|`YlGn`|![YlGn](imgs/YlGn.png)|
-|`RdGy`|![RdGy](imgs/RdGy.png)|
-|`Pastel2`|![Pastel2](imgs/Pastel2.png)|
-|`Pastel2_r`|![Pastel2_r](imgs/Pastel2_r.png)|
-|`nipy_spectral_r`|![nipy_spectral_r](imgs/nipy_spectral_r.png)|
-|`PuBuGn`|![PuBuGn](imgs/PuBuGn.png)|
-|`GnBu`|![GnBu](imgs/GnBu.png)|
-|`crest`|![crest](imgs/crest.png)|
-|`pink`|![pink](imgs/pink.png)|
-|`tab20`|![tab20](imgs/tab20.png)|
-|`GnBu_r`|![GnBu_r](imgs/GnBu_r.png)|
-|`tab20_r`|![tab20_r](imgs/tab20_r.png)|
-|`BuPu_r`|![BuPu_r](imgs/BuPu_r.png)|
-|`Pastel1`|![Pastel1](imgs/Pastel1.png)|
-|`binary_r`|![binary_r](imgs/binary_r.png)|
-|`Paired_r`|![Paired_r](imgs/Paired_r.png)|
-|`mako_r`|![mako_r](imgs/mako_r.png)|
-|`OrRd_r`|![OrRd_r](imgs/OrRd_r.png)|
-|`Greys_r`|![Greys_r](imgs/Greys_r.png)|
-|`RdYlBu_r`|![RdYlBu_r](imgs/RdYlBu_r.png)|
-|`hsv`|![hsv](imgs/hsv.png)|
-|`magma`|![magma](imgs/magma.png)|
-|`winter`|![winter](imgs/winter.png)|
-|`CMRmap_r`|![CMRmap_r](imgs/CMRmap_r.png)|
-|`gist_earth_r`|![gist_earth_r](imgs/gist_earth_r.png)|
-|`cubehelix_r`|![cubehelix_r](imgs/cubehelix_r.png)|
-|`seismic`|![seismic](imgs/seismic.png)|
-|`PiYG`|![PiYG](imgs/PiYG.png)|
-|`seismic_r`|![seismic_r](imgs/seismic_r.png)|
-|`PiYG_r`|![PiYG_r](imgs/PiYG_r.png)|
-|`Blues`|![Blues](imgs/Blues.png)|
-|`RdPu_r`|![RdPu_r](imgs/RdPu_r.png)|
-|`turbo`|![turbo](imgs/turbo.png)|
-|`vlag`|![vlag](imgs/vlag.png)|
-|`Reds_r`|![Reds_r](imgs/Reds_r.png)|
-|`PuBuGn_r`|![PuBuGn_r](imgs/PuBuGn_r.png)|
-|`CMRmap`|![CMRmap](imgs/CMRmap.png)|
-|`PuRd`|![PuRd](imgs/PuRd.png)|
-|`RdPu`|![RdPu](imgs/RdPu.png)|
-|`Set2_r`|![Set2_r](imgs/Set2_r.png)|
-|`Oranges`|![Oranges](imgs/Oranges.png)|
-|`ocean_r`|![ocean_r](imgs/ocean_r.png)|
-|`spring`|![spring](imgs/spring.png)|
-|`Greens`|![Greens](imgs/Greens.png)|
-|`cividis_r`|![cividis_r](imgs/cividis_r.png)|
-|`tab20c_r`|![tab20c_r](imgs/tab20c_r.png)|
-|`flare_r`|![flare_r](imgs/flare_r.png)|
-|`gnuplot`|![gnuplot](imgs/gnuplot.png)|
-|`Dark2_r`|![Dark2_r](imgs/Dark2_r.png)|
-|`YlOrBr`|![YlOrBr](imgs/YlOrBr.png)|
-|`copper`|![copper](imgs/copper.png)|
-|`magma_r`|![magma_r](imgs/magma_r.png)|
-|`gist_stern_r`|![gist_stern_r](imgs/gist_stern_r.png)|
-|`RdYlGn`|![RdYlGn](imgs/RdYlGn.png)|
-|`rainbow_r`|![rainbow_r](imgs/rainbow_r.png)|
-|`plasma`|![plasma](imgs/plasma.png)|
-|`RdYlGn_r`|![RdYlGn_r](imgs/RdYlGn_r.png)|
-|`gnuplot2_r`|![gnuplot2_r](imgs/gnuplot2_r.png)|
-|`gist_yarg_r`|![gist_yarg_r](imgs/gist_yarg_r.png)|
-|`rocket`|![rocket](imgs/rocket.png)|
-|`gist_earth`|![gist_earth](imgs/gist_earth.png)|
-|`gist_heat`|![gist_heat](imgs/gist_heat.png)|
-|`jet`|![jet](imgs/jet.png)|
-|`gist_heat_r`|![gist_heat_r](imgs/gist_heat_r.png)|
-|`brg`|![brg](imgs/brg.png)|
-|`Accent`|![Accent](imgs/Accent.png)|
-|`tab10`|![tab10](imgs/tab10.png)|
-|`brg_r`|![brg_r](imgs/brg_r.png)|
-|`hsv_r`|![hsv_r](imgs/hsv_r.png)|
-|`PuOr_r`|![PuOr_r](imgs/PuOr_r.png)|
-|`cool`|![cool](imgs/cool.png)|
-|`gist_gray_r`|![gist_gray_r](imgs/gist_gray_r.png)|
-|`turbo_r`|![turbo_r](imgs/turbo_r.png)|
-|`Spectral`|![Spectral](imgs/Spectral.png)|
-|`winter_r`|![winter_r](imgs/winter_r.png)|
-|`bwr_r`|![bwr_r](imgs/bwr_r.png)|
-|`binary`|![binary](imgs/binary.png)|
-|`Wistia`|![Wistia](imgs/Wistia.png)|
-|`icefire_r`|![icefire_r](imgs/icefire_r.png)|
-|`rocket_r`|![rocket_r](imgs/rocket_r.png)|
-|`YlGnBu`|![YlGnBu](imgs/YlGnBu.png)|
-|`Accent_r`|![Accent_r](imgs/Accent_r.png)|
-|`coolwarm`|![coolwarm](imgs/coolwarm.png)|
-|`inferno`|![inferno](imgs/inferno.png)|
-|`summer_r`|![summer_r](imgs/summer_r.png)|
-|`RdYlBu`|![RdYlBu](imgs/RdYlBu.png)|
-|`hot`|![hot](imgs/hot.png)|
-|`gist_ncar`|![gist_ncar](imgs/gist_ncar.png)|
-|`YlOrBr_r`|![YlOrBr_r](imgs/YlOrBr_r.png)|
-|`OrRd`|![OrRd](imgs/OrRd.png)|
-|`BuPu`|![BuPu](imgs/BuPu.png)|
-|`Paired`|![Paired](imgs/Paired.png)|
-|`bone`|![bone](imgs/bone.png)|
-|`crest_r`|![crest_r](imgs/crest_r.png)|
-|`autumn`|![autumn](imgs/autumn.png)|
-|`gist_stern`|![gist_stern](imgs/gist_stern.png)|
-|`PRGn`|![PRGn](imgs/PRGn.png)|
-|`tab20b_r`|![tab20b_r](imgs/tab20b_r.png)|
-|`Greens_r`|![Greens_r](imgs/Greens_r.png)|
-|`hot_r`|![hot_r](imgs/hot_r.png)|
-|`flare`|![flare](imgs/flare.png)|
-|`afmhot_r`|![afmhot_r](imgs/afmhot_r.png)|
-|`ocean`|![ocean](imgs/ocean.png)|
-|`plasma_r`|![plasma_r](imgs/plasma_r.png)|
-|`jet_r`|![jet_r](imgs/jet_r.png)|
-|`twilight_r`|![twilight_r](imgs/twilight_r.png)|
-|`BrBG`|![BrBG](imgs/BrBG.png)|
-|`autumn_r`|![autumn_r](imgs/autumn_r.png)|
-|`cubehelix`|![cubehelix](imgs/cubehelix.png)|
-|`prism`|![prism](imgs/prism.png)|
-|`gnuplot_r`|![gnuplot_r](imgs/gnuplot_r.png)|
-|`inferno_r`|![inferno_r](imgs/inferno_r.png)|
-|`spring_r`|![spring_r](imgs/spring_r.png)|
-|`vlag_r`|![vlag_r](imgs/vlag_r.png)|
-|`Greys`|![Greys](imgs/Greys.png)|
-|`PuBu`|![PuBu](imgs/PuBu.png)|
-|`Dark2`|![Dark2](imgs/Dark2.png)|
-|`BuGn`|![BuGn](imgs/BuGn.png)|
-|`PuOr`|![PuOr](imgs/PuOr.png)|
-|`mako`|![mako](imgs/mako.png)|
-|`afmhot`|![afmhot](imgs/afmhot.png)|
-|`Wistia_r`|![Wistia_r](imgs/Wistia_r.png)|
-|`tab10_r`|![tab10_r](imgs/tab10_r.png)|
-|`coolwarm_r`|![coolwarm_r](imgs/coolwarm_r.png)|
-|`PuRd_r`|![PuRd_r](imgs/PuRd_r.png)|
-|`BuGn_r`|![BuGn_r](imgs/BuGn_r.png)|
-|`gist_rainbow`|![gist_rainbow](imgs/gist_rainbow.png)|
-|`rainbow`|![rainbow](imgs/rainbow.png)|
-|`viridis`|![viridis](imgs/viridis.png)|
-|`YlGn_r`|![YlGn_r](imgs/YlGn_r.png)|
+<table align="center" border="0">
+<tr><td align="center"><b>Colormap</b></td><td align="center"><b>Visualization</b></td></tr>
+<tr><td align="center">
+
+#### `prism_r`
+</td><td align="center"><img src="imgs/prism_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `YlGnBu_r`
+</td><td align="center"><img src="imgs/YlGnBu_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Set3`
+</td><td align="center"><img src="imgs/Set3.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `BrBG_r`
+</td><td align="center"><img src="imgs/BrBG_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `terrain_r`
+</td><td align="center"><img src="imgs/terrain_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Pastel1_r`
+</td><td align="center"><img src="imgs/Pastel1_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Set2`
+</td><td align="center"><img src="imgs/Set2.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `flag_r`
+</td><td align="center"><img src="imgs/flag_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `YlOrRd_r`
+</td><td align="center"><img src="imgs/YlOrRd_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `copper_r`
+</td><td align="center"><img src="imgs/copper_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Spectral_r`
+</td><td align="center"><img src="imgs/Spectral_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `gist_rainbow_r`
+</td><td align="center"><img src="imgs/gist_rainbow_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `summer`
+</td><td align="center"><img src="imgs/summer.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `tab20c`
+</td><td align="center"><img src="imgs/tab20c.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `gray_r`
+</td><td align="center"><img src="imgs/gray_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `nipy_spectral`
+</td><td align="center"><img src="imgs/nipy_spectral.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `flag`
+</td><td align="center"><img src="imgs/flag.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `twilight_shifted`
+</td><td align="center"><img src="imgs/twilight_shifted.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Set1`
+</td><td align="center"><img src="imgs/Set1.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `tab20b`
+</td><td align="center"><img src="imgs/tab20b.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `RdBu`
+</td><td align="center"><img src="imgs/RdBu.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `bwr`
+</td><td align="center"><img src="imgs/bwr.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Blues_r`
+</td><td align="center"><img src="imgs/Blues_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Purples`
+</td><td align="center"><img src="imgs/Purples.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `terrain`
+</td><td align="center"><img src="imgs/terrain.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `icefire`
+</td><td align="center"><img src="imgs/icefire.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `gray`
+</td><td align="center"><img src="imgs/gray.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Set3_r`
+</td><td align="center"><img src="imgs/Set3_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Oranges_r`
+</td><td align="center"><img src="imgs/Oranges_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `PRGn_r`
+</td><td align="center"><img src="imgs/PRGn_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `YlOrRd`
+</td><td align="center"><img src="imgs/YlOrRd.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Set1_r`
+</td><td align="center"><img src="imgs/Set1_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Purples_r`
+</td><td align="center"><img src="imgs/Purples_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `RdGy_r`
+</td><td align="center"><img src="imgs/RdGy_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `cool_r`
+</td><td align="center"><img src="imgs/cool_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `gist_gray`
+</td><td align="center"><img src="imgs/gist_gray.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `gist_yarg`
+</td><td align="center"><img src="imgs/gist_yarg.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `twilight`
+</td><td align="center"><img src="imgs/twilight.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `RdBu_r`
+</td><td align="center"><img src="imgs/RdBu_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `pink_r`
+</td><td align="center"><img src="imgs/pink_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Reds`
+</td><td align="center"><img src="imgs/Reds.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `twilight_shifted_r`
+</td><td align="center"><img src="imgs/twilight_shifted_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `bone_r`
+</td><td align="center"><img src="imgs/bone_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `cividis`
+</td><td align="center"><img src="imgs/cividis.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `viridis_r`
+</td><td align="center"><img src="imgs/viridis_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `gnuplot2`
+</td><td align="center"><img src="imgs/gnuplot2.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `PuBu_r`
+</td><td align="center"><img src="imgs/PuBu_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `gist_ncar_r`
+</td><td align="center"><img src="imgs/gist_ncar_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `YlGn`
+</td><td align="center"><img src="imgs/YlGn.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `RdGy`
+</td><td align="center"><img src="imgs/RdGy.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Pastel2`
+</td><td align="center"><img src="imgs/Pastel2.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Pastel2_r`
+</td><td align="center"><img src="imgs/Pastel2_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `nipy_spectral_r`
+</td><td align="center"><img src="imgs/nipy_spectral_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `PuBuGn`
+</td><td align="center"><img src="imgs/PuBuGn.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `GnBu`
+</td><td align="center"><img src="imgs/GnBu.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `crest`
+</td><td align="center"><img src="imgs/crest.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `pink`
+</td><td align="center"><img src="imgs/pink.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `tab20`
+</td><td align="center"><img src="imgs/tab20.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `GnBu_r`
+</td><td align="center"><img src="imgs/GnBu_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `tab20_r`
+</td><td align="center"><img src="imgs/tab20_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `BuPu_r`
+</td><td align="center"><img src="imgs/BuPu_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Pastel1`
+</td><td align="center"><img src="imgs/Pastel1.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `binary_r`
+</td><td align="center"><img src="imgs/binary_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Paired_r`
+</td><td align="center"><img src="imgs/Paired_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `mako_r`
+</td><td align="center"><img src="imgs/mako_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `OrRd_r`
+</td><td align="center"><img src="imgs/OrRd_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Greys_r`
+</td><td align="center"><img src="imgs/Greys_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `RdYlBu_r`
+</td><td align="center"><img src="imgs/RdYlBu_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `hsv`
+</td><td align="center"><img src="imgs/hsv.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `magma`
+</td><td align="center"><img src="imgs/magma.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `winter`
+</td><td align="center"><img src="imgs/winter.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `CMRmap_r`
+</td><td align="center"><img src="imgs/CMRmap_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `gist_earth_r`
+</td><td align="center"><img src="imgs/gist_earth_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `cubehelix_r`
+</td><td align="center"><img src="imgs/cubehelix_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `seismic`
+</td><td align="center"><img src="imgs/seismic.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `PiYG`
+</td><td align="center"><img src="imgs/PiYG.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `seismic_r`
+</td><td align="center"><img src="imgs/seismic_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `PiYG_r`
+</td><td align="center"><img src="imgs/PiYG_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Blues`
+</td><td align="center"><img src="imgs/Blues.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `RdPu_r`
+</td><td align="center"><img src="imgs/RdPu_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `turbo`
+</td><td align="center"><img src="imgs/turbo.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `vlag`
+</td><td align="center"><img src="imgs/vlag.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Reds_r`
+</td><td align="center"><img src="imgs/Reds_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `PuBuGn_r`
+</td><td align="center"><img src="imgs/PuBuGn_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `CMRmap`
+</td><td align="center"><img src="imgs/CMRmap.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `PuRd`
+</td><td align="center"><img src="imgs/PuRd.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `RdPu`
+</td><td align="center"><img src="imgs/RdPu.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Set2_r`
+</td><td align="center"><img src="imgs/Set2_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Oranges`
+</td><td align="center"><img src="imgs/Oranges.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `ocean_r`
+</td><td align="center"><img src="imgs/ocean_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `spring`
+</td><td align="center"><img src="imgs/spring.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Greens`
+</td><td align="center"><img src="imgs/Greens.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `cividis_r`
+</td><td align="center"><img src="imgs/cividis_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `tab20c_r`
+</td><td align="center"><img src="imgs/tab20c_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `flare_r`
+</td><td align="center"><img src="imgs/flare_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `gnuplot`
+</td><td align="center"><img src="imgs/gnuplot.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Dark2_r`
+</td><td align="center"><img src="imgs/Dark2_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `YlOrBr`
+</td><td align="center"><img src="imgs/YlOrBr.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `copper`
+</td><td align="center"><img src="imgs/copper.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `magma_r`
+</td><td align="center"><img src="imgs/magma_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `gist_stern_r`
+</td><td align="center"><img src="imgs/gist_stern_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `RdYlGn`
+</td><td align="center"><img src="imgs/RdYlGn.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `rainbow_r`
+</td><td align="center"><img src="imgs/rainbow_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `plasma`
+</td><td align="center"><img src="imgs/plasma.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `RdYlGn_r`
+</td><td align="center"><img src="imgs/RdYlGn_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `gnuplot2_r`
+</td><td align="center"><img src="imgs/gnuplot2_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `gist_yarg_r`
+</td><td align="center"><img src="imgs/gist_yarg_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `rocket`
+</td><td align="center"><img src="imgs/rocket.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `gist_earth`
+</td><td align="center"><img src="imgs/gist_earth.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `gist_heat`
+</td><td align="center"><img src="imgs/gist_heat.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `jet`
+</td><td align="center"><img src="imgs/jet.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `gist_heat_r`
+</td><td align="center"><img src="imgs/gist_heat_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `brg`
+</td><td align="center"><img src="imgs/brg.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Accent`
+</td><td align="center"><img src="imgs/Accent.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `tab10`
+</td><td align="center"><img src="imgs/tab10.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `brg_r`
+</td><td align="center"><img src="imgs/brg_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `hsv_r`
+</td><td align="center"><img src="imgs/hsv_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `PuOr_r`
+</td><td align="center"><img src="imgs/PuOr_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `cool`
+</td><td align="center"><img src="imgs/cool.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `gist_gray_r`
+</td><td align="center"><img src="imgs/gist_gray_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `turbo_r`
+</td><td align="center"><img src="imgs/turbo_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Spectral`
+</td><td align="center"><img src="imgs/Spectral.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `winter_r`
+</td><td align="center"><img src="imgs/winter_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `bwr_r`
+</td><td align="center"><img src="imgs/bwr_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `binary`
+</td><td align="center"><img src="imgs/binary.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Wistia`
+</td><td align="center"><img src="imgs/Wistia.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `icefire_r`
+</td><td align="center"><img src="imgs/icefire_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `rocket_r`
+</td><td align="center"><img src="imgs/rocket_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `YlGnBu`
+</td><td align="center"><img src="imgs/YlGnBu.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Accent_r`
+</td><td align="center"><img src="imgs/Accent_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `coolwarm`
+</td><td align="center"><img src="imgs/coolwarm.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `inferno`
+</td><td align="center"><img src="imgs/inferno.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `summer_r`
+</td><td align="center"><img src="imgs/summer_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `RdYlBu`
+</td><td align="center"><img src="imgs/RdYlBu.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `hot`
+</td><td align="center"><img src="imgs/hot.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `gist_ncar`
+</td><td align="center"><img src="imgs/gist_ncar.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `YlOrBr_r`
+</td><td align="center"><img src="imgs/YlOrBr_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `OrRd`
+</td><td align="center"><img src="imgs/OrRd.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `BuPu`
+</td><td align="center"><img src="imgs/BuPu.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Paired`
+</td><td align="center"><img src="imgs/Paired.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `bone`
+</td><td align="center"><img src="imgs/bone.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `crest_r`
+</td><td align="center"><img src="imgs/crest_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `autumn`
+</td><td align="center"><img src="imgs/autumn.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `gist_stern`
+</td><td align="center"><img src="imgs/gist_stern.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `PRGn`
+</td><td align="center"><img src="imgs/PRGn.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `tab20b_r`
+</td><td align="center"><img src="imgs/tab20b_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Greens_r`
+</td><td align="center"><img src="imgs/Greens_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `hot_r`
+</td><td align="center"><img src="imgs/hot_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `flare`
+</td><td align="center"><img src="imgs/flare.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `afmhot_r`
+</td><td align="center"><img src="imgs/afmhot_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `ocean`
+</td><td align="center"><img src="imgs/ocean.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `plasma_r`
+</td><td align="center"><img src="imgs/plasma_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `jet_r`
+</td><td align="center"><img src="imgs/jet_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `twilight_r`
+</td><td align="center"><img src="imgs/twilight_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `BrBG`
+</td><td align="center"><img src="imgs/BrBG.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `autumn_r`
+</td><td align="center"><img src="imgs/autumn_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `cubehelix`
+</td><td align="center"><img src="imgs/cubehelix.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `prism`
+</td><td align="center"><img src="imgs/prism.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `gnuplot_r`
+</td><td align="center"><img src="imgs/gnuplot_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `inferno_r`
+</td><td align="center"><img src="imgs/inferno_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `spring_r`
+</td><td align="center"><img src="imgs/spring_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `vlag_r`
+</td><td align="center"><img src="imgs/vlag_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Greys`
+</td><td align="center"><img src="imgs/Greys.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `PuBu`
+</td><td align="center"><img src="imgs/PuBu.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Dark2`
+</td><td align="center"><img src="imgs/Dark2.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `BuGn`
+</td><td align="center"><img src="imgs/BuGn.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `PuOr`
+</td><td align="center"><img src="imgs/PuOr.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `mako`
+</td><td align="center"><img src="imgs/mako.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `afmhot`
+</td><td align="center"><img src="imgs/afmhot.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `Wistia_r`
+</td><td align="center"><img src="imgs/Wistia_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `tab10_r`
+</td><td align="center"><img src="imgs/tab10_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `coolwarm_r`
+</td><td align="center"><img src="imgs/coolwarm_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `PuRd_r`
+</td><td align="center"><img src="imgs/PuRd_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `BuGn_r`
+</td><td align="center"><img src="imgs/BuGn_r.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `gist_rainbow`
+</td><td align="center"><img src="imgs/gist_rainbow.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `rainbow`
+</td><td align="center"><img src="imgs/rainbow.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `viridis`
+</td><td align="center"><img src="imgs/viridis.png" align="center"></td></tr>
+<tr><td align="center">
+
+#### `YlGn_r`
+</td><td align="center"><img src="imgs/YlGn_r.png" align="center"></td></tr>
+</table>
